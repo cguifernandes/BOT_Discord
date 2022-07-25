@@ -16,6 +16,7 @@ async def on_message(message):
     name = message.author.mention
     if message.author == bot.user:
         return
+        
 
     if bot.user.mentioned_in(message):
         if "OLÁ".lower() in message.content.lower() or "OLA".lower() in message.content.lower():
