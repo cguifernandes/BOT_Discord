@@ -1,0 +1,4 @@
+discord.py
+requests
+random
+python.decouple
