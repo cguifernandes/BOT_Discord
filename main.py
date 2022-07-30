@@ -67,7 +67,7 @@ async def ajuda(ctx):
     em.set_author(name = bot.user.name, icon_url = bot.user.avatar_url)
     em.set_footer(text = "Feito por " + bot.user.name)
     em.set_image (url = url_image)
-    em.add_field(name = "Propriedades", value = "- diga um olá para mim! Basta digitar olá e me mencionar.\
+    em.add_field(name = "Propriedades", value = "- Diga um olá para mim! Basta digitar olá e me mencionar.\
         \n- anime: Sorteie qualquer anime, sendo da sua escolha e o resultado será mostrado com um GIF! :laughing: (A divisão do que será sorteado é através do uso da vírgula).\
         \n- aleatorio: Sorteie qualquer coisa sendo da sua escolha, sem GIF :frowning2: .(A divisão do que será sorteado é através do uso da vírgula).\
         \n- sorteio: Um anime aleatório será sorteado de uma lista com mais de 1200 animes.", inline = False)
